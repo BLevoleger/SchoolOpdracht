@@ -1,5 +1,5 @@
-class Player 
-{
+//Player class
+class Player {
     constructor(name, symbol) {
         this.name = name,
         this.symbol = symbol,
@@ -18,6 +18,7 @@ class Player
 
 const playerOne = new Player("Henk", "X");
 const playerTwo = new Player("Beau", "O");
+const players = [playerOne, playerTwo];
 
 playerOne.addPoints(30);
 
